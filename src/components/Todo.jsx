@@ -7,6 +7,7 @@ import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const Todo = () => {
     const [todos,setTodos]=useState([]);
@@ -46,8 +47,10 @@ const Todo = () => {
     <div>
       <Box padding={"2%"} sx={{width:"50%",margin:"auto",display:"flex",justifyContent:"space-between",border:"1px solid purple",bgcolor:"grey",color:"white"}} >
          <Typography fontSize={"2rem"} fontWeight={"bold"}>Todo App</Typography>
-         <Box sx={{bgcolor:"purple",borderRadius:"50%",padding:"1rem"}}>
+         <Box sx={{bgcolor:"purple",borderRadius:"50%",padding:"1rem",color:"white"}}>
+         <Link to="/add">
          <AddCircleIcon />
+         </Link>
          </Box>
       </Box>
       {
