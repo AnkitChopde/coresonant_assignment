@@ -21,4 +21,8 @@ A simple Todo application to help you stay organized and manage your tasks effec
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-application.git
+   git clone https://github.com/AnkitChopde/coresonant_assignment.git
+
+## Images
+
+![image](https://github.com/AnkitChopde/impossible-basin-3215/assets/112820279/b71bd0f6-9693-43b5-90b0-a54cc8453e41)
